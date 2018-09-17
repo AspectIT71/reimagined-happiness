@@ -1,0 +1,235 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+    font-family: "Gotham Pro";
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1366px;
+    background-color: #c7ebed;
+    margin: 0 auto;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+
+}
+header.header{
+    background-color: #f4f4f4;
+    width: 98%;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin: 5px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+}
+ul.topNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    margin-left: 10%;
+}
+ul.topNav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+ul.topNav a{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.login{
+margin-right: 2%;
+}
+
+.sliderWrapper{
+    padding-top: 15px;
+    background-color: #f4f4f4;
+    width: 98%;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    margin: 15px auto;
+    height: 250px;
+    position: relative;
+}
+.sign{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 160px;
+    text-align: center;
+    height: 25px;
+    background-color: #d9491d;
+    color: #f4f4f4;
+    font-size: 20px;
+    padding-top: 3px;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+.slick-slider{
+    position: relative;
+    margin: 0 30px 0 30px;
+}
+.slick-slider img{
+   margin: auto;
+}
+
+.sliderItem{
+    position: relative;
+    margin-right: 10px;
+    width: 420px;
+}
+.sliderItemText{
+    position: absolute;
+    bottom: 2px;
+    right: 19px;
+    width: 410px;
+}
+.sliderItemText p{
+    text-align: center;
+    color: white;
+}
+
+.prev{
+
+    position: absolute;
+    bottom: 105px;
+    left: 2px;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    bottom: 105px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.mainContainer{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content{
+    background-color: #f4f4f4;
+    width: 69%;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding-top: 15px;
+    position: relative;
+}
+
+.newsItem{
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.newsImage{
+    position: relative;
+}
+.newsItem:hover{
+    transition: 1000ms;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.newsImage img{
+
+}
+.backgroundText{
+    bottom: 4px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+}
+.newsImage h3{
+    color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.newsItem p{
+    margin: 0;
+}
+.date{
+    text-align: center;
+    background-color: #7f8489;
+    color: #f4f4f4;
+    width: 70px;
+    height: 20px;
+    margin-top: -3px;
+    float: right;
+}
+
+.sidebar{
+    background-color: #f4f4f4;
+    width: 30%;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer{
+    background-color: #f4f4f4;
+    width: 98%;
+    min-height: 90px;
+    margin: 15px auto;
+    box-shadow: 0 1px 13px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.footer p:first-child{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0;
+    margin-top: 5px;
+}
+
+a.hh{
+    background: url(/../image/headhunter.png) no-repeat;
+    background-size: 50px 50px;
+    display: inline-block; /*  Рисунок как блочный элемент */
+    width: 50px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+}
+.myInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myInfo a{
+    margin-left: 10px;
+}
+
+
+
+
+
+.contentPost{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

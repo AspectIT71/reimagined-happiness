@@ -49,7 +49,7 @@
                 <!-- /.box-footer-->
             </div>
             <!-- /.box -->
-
+            {{Form::close()}}
         </section>
         <!-- /.content -->
     </div>

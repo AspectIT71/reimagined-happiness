@@ -39,6 +39,23 @@ mix.scripts([
 ], 'public/js/admin.js');
 
 
+mix.styles([
+    'resources/assets/front/css/normalize.css',
+    'resources/assets/front/css/main.css',
+    'resources/assets/front/fonts/stylesheet.css',
+    'resources/assets/front/slick/slick.css',
+    'resources/assets/front/slick/slick-theme.css',
+], 'public/css/main.css');
+
+mix.scripts([
+
+    'resources/assets/front/slick/slick.js',
+    'resources/assets/front/js/main.js'
+], 'public/js/main.js');
+
 mix.copy('resources/assets/admin/bootstrap/fonts','public/fonts');
 mix.copy('resources/assets/admin/dist/fonts','public/fonts');
 mix.copy('resources/assets/admin/dist/img','public/img');
+mix.copy('resources/assets/admin/plugins/iCheck/minimal/blue.png','public/css');
+mix.copy('resources/assets/front/image','public/image');
+mix.copy('resources/assets/front/fonts','public/fonts');
