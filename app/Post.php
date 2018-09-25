@@ -110,6 +110,10 @@ class Post extends Model
         $this->status = 0;
         $this->save();
     }
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
 
     public function setPublic()
     {

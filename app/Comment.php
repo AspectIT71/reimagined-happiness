@@ -6,13 +6,26 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
+
     public function author()
     {
-        $this->hasOne(User::class);
+
+        return $this->belongsTo(User::class, 'user_id');
+
     }
     public function post()
     {
-        return $this->hasOne(Post::class);
+        return $this->belongsTo(Post::class);
+    }
+
+    public function toggleStatus()
+    {
+        if($this->status == 0)
+        {
+            return $this->allow();
+        }
+
+        return $this->disAllow();
     }
 
     public function allow()
